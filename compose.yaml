@@ -1,0 +1,12 @@
+services:
+  mindcode-front:
+    image: node:23-alpine3.20
+    command: sh -c "npm install && npm run dev"
+    volumes:
+      - ./nextcomponents:/app
+      - /app/node_modules
+    working_dir: /app
+    ports: 
+      - 5173:3000
+    environment:
+      - WATCHPACK_POLLING=true
