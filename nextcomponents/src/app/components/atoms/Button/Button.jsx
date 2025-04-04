@@ -4,7 +4,7 @@ import React from 'react';
 
 // This is a simple button atom
 // It needs to receive an onClick handler and its text content from its parent
-export const Button = ({ onClick, children }) => {
+export const Button = () => {
   return (
     <button 
       onClick={onClick}
