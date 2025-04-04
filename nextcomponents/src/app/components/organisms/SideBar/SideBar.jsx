@@ -12,7 +12,7 @@ export const SideBar = () => {
   return (
     <div className="w-64 bg-gray-100 p-4">
       <h2 className="text-xl font-semibold mb-4">SideBar</h2>
-      <Button onClick={handleClick}>Increment Counter</Button>
+      <Button>Increment Counter</Button>
     </div>
   );
 };

@@ -7,7 +7,7 @@ import React from 'react';
 export const Counter = () => {
   return (
     <div className="text-4xl font-bold">
-      Count: {count}
+      Count: 
     </div>
   );
 };

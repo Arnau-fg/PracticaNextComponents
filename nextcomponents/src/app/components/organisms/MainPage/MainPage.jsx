@@ -11,7 +11,7 @@ export const MainPage = () => {
   return (
     <div className="flex-1 p-4">
       <h1 className="text-2xl font-bold mb-4">Main Content</h1>
-      <Counter count={count?count:0} />
+      <Counter />
     </div>
   );
 };
